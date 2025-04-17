@@ -8,7 +8,7 @@ export const routes: Routes = [
   },
   {
     path: 'country',
-    loadChildren: () => import('./country/services/coutry.routes'), //.then(m => m.countryRoutes)
+    loadChildren: () => import('./country/services/country.routes'), //.then(m => m.countryRoutes)
 
   },
 
