@@ -1,0 +1,45 @@
+<nav class="p-4 w-full">
+  <ul class="menu bg-base-200 sm:menu-horizontal rounded-box">
+    <li>
+      <a class="btn"
+         routerLinkActive="btn-primary"
+         routerLink="by-capital"
+         [routerLinkActiveOptions]="{ exact: true }"
+        >
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+          <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="m9.474 16l9.181 3.284a1.1 1.1 0 0 0 1.462-.887L21.99 4.239c.114-.862-.779-1.505-1.567-1.13L2.624 11.605c-.88.42-.814 1.69.106 2.017l2.44.868l1.33.467M13 17.26l-1.99 3.326c-.65.808-1.959.351-1.959-.683V17.24a2 2 0 0 1 .53-1.356l3.871-4.2" />
+        </svg>
+        Por capital
+      </a>
+    </li>
+    <li>
+      <a class="btn"
+        routerLinkActive="btn-primary"
+        routerLink="by-country"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <circle cx="12" cy="12" r="10" />
+          <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(90 12 12)" />
+          <path d="M2 12h20" />
+        </g>
+      </svg>
+      Por país
+      </a>
+    </li>
+    <li>
+      <a class ="btn"
+         routerLinkActive="btn-primary"
+         routerLink="by-region"
+         [routerLinkActiveOptions]="{ exact: true }">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+          <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="m13.147 21.197l1.67-1.168a13.39 13.39 0 0 0 5.447-13.624a.84.84 0 0 0-.453-.586L12 2L4.19 5.819a.84.84 0 0 0-.454.586a13.39 13.39 0 0 0 5.448 13.624l1.67 1.168a2 2 0 0 0 2.293 0" />
+        </svg>
+        Por región
+      </a>
+    </li>
+  </ul>
+</nav>
