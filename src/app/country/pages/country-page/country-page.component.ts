@@ -1,11 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'country-page',
+  selector: 'app-country-page',
   imports: [],
   templateUrl: './country-page.component.html',
 })
-export class CountryPageComponent {
-
-
-}
+export class CountryPageComponent {}
