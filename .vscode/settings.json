@@ -1,7 +1,4 @@
 {
-  "emmet.includeLanguages": {
-    "postcss": "css"
-  },
   "angular-schematics.schematicsDefaultOptions": {
     "angular-*": {
       "externalTemplate": true,
